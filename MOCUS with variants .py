@@ -46,8 +46,10 @@ for i in range (len(variant1), 0, -1):
 
 # Deleting elements with one zero 
 i=0
-while i< len(variant1):     
-      x=variant1[i]
+k=i
+l=len(variant1)
+while i< l:     
+      x=variant1[k]
       x1=x[2][0]
       x2=x[2][1]
       if (x1 == 0 or x2 == 0):
@@ -56,7 +58,8 @@ while i< len(variant1):
              gate=x2
          else: 
              gate=x1    
-         poped= variant1.pop(i)
+         poped= variant1.pop(k)
+         k=k-1
          for j in range (0, len(variant1)):
             y=variant1[j]
             y1=y[2][0]
@@ -70,8 +73,8 @@ while i< len(variant1):
                varlist1=list(variant1[j])
                varlist1[2][1]=gate
                variant1[j]=tuple(varlist1)
-            i=i+1
-      i=i+1    
+      i=i+1
+      k=k+1    
 #Printing Minimal Cut Set for Supermodel and variant 
 print("Minimal Cut Sets for Supermodel is:")
 cs = cutsets.mocus (supermodel)
