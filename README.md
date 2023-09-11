@@ -48,6 +48,11 @@ Minimal Cut Sets for Supermodel is:
 Minimal Cut Sets for variant is:
 [['a'], ['e', 'b']]
 
+Input: a,b
+Minimal Cut Sets for Supermodel is:
+[['a'], ['b', 'd'], ['d', 'c'], ['e', 'b'], ['e', 'c']]
+Minimal Cut Sets for variant is:
+[['a'], ['b']]
 Input: a,c,d
 Minimal Cut Sets for Supermodel is:
 [['a'], ['d', 'b'], ['d', 'c'], ['e', 'b'], ['e', 'c']]
