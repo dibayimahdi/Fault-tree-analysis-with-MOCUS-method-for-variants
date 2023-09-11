@@ -14,12 +14,12 @@ Minimal Cut Sets for variant is:
 
 Input: a,b,c,d
 Minimal Cut Sets for Supermodel is:
-[['a'], ['d', 'b'], ['d', 'c'], ['e', 'b'], ['c', 'e']]
+[['a'], ['b', 'd'], ['c', 'd'], ['b', 'e'], ['c', 'e']]
 Minimal Cut Sets for variant is:
-[['a'], ['d', 'b'], ['d', 'c']]
+[['a'], ['b', 'd'], ['c', 'd']]
 
 Input:  a,c,d,e
 Minimal Cut Sets for Supermodel is:
-[['a'], ['d', 'b'], ['d', 'c'], ['e', 'b'], ['c', 'e']]
+[['a'], ['d', 'b'], ['d', 'c'], ['b', 'e'], ['c', 'e']]
 Minimal Cut Sets for variant is:
-[['a'], ['d', 'c'], ['e', 'c']]
+[['a'], ['c', 'd'], ['c', 'e']]
