@@ -74,14 +74,24 @@ while i< l:
                variant1[j]=tuple(varlist1)
       i=i+1
       k=k+1    
-if (variant1[0][0]!='TOP'):
-   varlist1=list(variant1[0])
-   varlist1[0]='TOP'
-   variant1[0]=tuple(varlist1)
-#Printing Minimal Cut Set for Supermodel and variant 
+
 print("Minimal Cut Sets for Supermodel is:")
 cs = cutsets.mocus (supermodel)
 print (cs)
-print("Minimal Cut Sets for variant is:")
-cs = cutsets.mocus (variant1)
-print (cs)
+
+if (len(variant_variables)==1):
+   print("Minimal Cut Sets for variant is: ")
+   print('[' , end="")
+   print(variant_variables, end="")
+   print(']')
+else:
+   if (variant1[0][0]!='TOP'):
+      varlist1=list(variant1[0])
+      varlist1[0]='TOP'
+      variant1[0]=tuple(varlist1)
+      #Printing Minimal Cut Set for Supermodel and variant 
+if (len(variant_variables)!=1):
+   print("Minimal Cut Sets for variant is:")
+   cs = cutsets.mocus (variant1)
+   print (cs)
+
