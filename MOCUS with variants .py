@@ -1,4 +1,3 @@
-
 #This code converts Supermodel to variant (according the variables that user gives as variant variables) and computes minimal cut set for the variant 
 import cutsets 
 import string
@@ -75,6 +74,10 @@ while i< l:
                variant1[j]=tuple(varlist1)
       i=i+1
       k=k+1    
+if (variant1[0][0]!='TOP'):
+   varlist1=list(variant1[0])
+   varlist1[0]='TOP'
+   variant1[0]=tuple(varlist1)
 #Printing Minimal Cut Set for Supermodel and variant 
 print("Minimal Cut Sets for Supermodel is:")
 cs = cutsets.mocus (supermodel)
