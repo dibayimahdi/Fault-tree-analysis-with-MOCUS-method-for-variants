@@ -1,4 +1,9 @@
 # MOCUS-variants
+This Program calculates minimal cut sets for the fault tree of a 150% model and its variants.
+First, the Boolean formula for the Fault tree is given inside the code.
+This program asks the user to enter the elements of a specific variant and it calculates minimal cut sets for that specific variant 
+
+
 
 supermodel = [("TOP", "Or", ["a", "G1"]),
       ("G1", "And", ["G2", "G3"]),
