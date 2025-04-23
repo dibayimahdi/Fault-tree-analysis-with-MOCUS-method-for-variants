@@ -28,6 +28,17 @@ Please refer to this paper for the theoretical background, algorithms, and case 
 - Computes minimal cut sets for both the **original supermodel** and the **derived variant model** using the MOCUS method (via `cutsets.mocus()`).
 
 ---
+✏️ TODO
+ Add support for multi-input gates
+
+ Improve UI with error handling and formatting
+
+ Optionally export results to a file (e.g., CSV)
+
+📫 Contact
+For academic use or collaboration inquiries, feel free to cite the IEEE paper or contact the authors through the IEEE Xplore page.
+
+
 
 ## 🧪 Example Supermodel
 
