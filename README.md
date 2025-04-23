@@ -1,5 +1,45 @@
-# Fault Tree analysis with MOCUS method for variants
-This Program calculates minimal cut sets for the fault tree of a 150% model and its variants.
+# ⚙️ Fault Tree Analysis with MOCUS Method for Variants
+
+This Python program computes **minimal cut sets** for a given **150% fault tree model (supermodel)** and its **variants**, based on user-specified active components (variant variables).
+
+It supports systematic **variant reduction** of the supermodel and applies the **MOCUS (Method Of Cut Sets)** algorithm to compute the minimal cut sets.
+
+---
+
+## 📄 Related Publication
+
+This implementation is based on the research presented in the following IEEE publication:
+
+📘 **"An Efficient Cut Set Computation Approach for Variant-Aware Fault Tree Analysis"**  
+🖋️ Authors: Sima Noori, et al.  
+📅 Published: 2024  
+📚 Available on IEEE Xplore  
+🔗 [View the Paper](https://ieeexplore.ieee.org/abstract/document/10381472)
+
+Please refer to this paper for the theoretical background, algorithms, and case studies.
+
+---
+
+## 🧠 What This Program Does
+
+- Defines a **supermodel fault tree** as a list of logic gates and basic events.
+- Takes user input to define **active variant components**.
+- Prunes the model to reflect only selected variant variables.
+- Computes minimal cut sets for both the **original supermodel** and the **derived variant model** using the MOCUS method (via `cutsets.mocus()`).
+
+---
+
+## 🧪 Example Supermodel
+
+```python
+supermodel = [
+    ("TOP", "Or", ["a", "G1"]),
+    ("G1", "And", ["G2", "G3"]),
+    ("G2", "Or", ["b", "c"]),
+    ("G3", "Or", ["d", "e"])
+]
+
+
 First, the Boolean formula for the Fault tree is given inside the code.
 This program asks the user to enter the elements of a specific variant and it calculates minimal cut sets for that specific variant 
 
