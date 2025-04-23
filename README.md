@@ -18,6 +18,16 @@ This implementation is based on the research presented in the following IEEE pub
 
 Please refer to this paper for the theoretical background, algorithms, and case studies.
 
+✏️ TODO
+ Add support for multi-input gates
+
+ Improve UI with error handling and formatting
+
+ Optionally export results to a file (e.g., CSV)
+
+📫 Contact
+For academic use or collaboration inquiries, feel free to cite the IEEE paper or contact the authors through the IEEE Xplore page.
+
 ---
 
 ## 🧠 What This Program Does
@@ -141,13 +151,4 @@ Minimal Cut Sets for variant is:
 
 
 
-✏️ TODO
- Add support for multi-input gates
-
- Improve UI with error handling and formatting
-
- Optionally export results to a file (e.g., CSV)
-
-📫 Contact
-For academic use or collaboration inquiries, feel free to cite the IEEE paper or contact the authors through the IEEE Xplore page.
 
