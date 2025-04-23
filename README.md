@@ -10,8 +10,8 @@ It supports systematic **variant reduction** of the supermodel and applies the *
 
 This implementation is based on the research presented in the following IEEE publication:
 
-📘 **"An Efficient Cut Set Computation Approach for Variant-Aware Fault Tree Analysis"**  
-🖋️ Authors: Mahdi Dibaei, et al.  
+📘 **"A Novel Method for Computing Minimal Cut Sets of Variant-Rich Systems in Fault Tree Analysis"**  
+🖋️ Authors: Mahdi Dibaei, Anna Arestova, Kai-Steffen Hielscher, Reinhard German.  
 📅 Published: 2024  
 📚 Available on IEEE Xplore  
 🔗 [View the Paper](https://ieeexplore.ieee.org/abstract/document/10381472)
