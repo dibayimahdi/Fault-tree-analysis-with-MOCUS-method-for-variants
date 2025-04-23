@@ -13,7 +13,7 @@ This implementation is based on the research presented in the following IEEE pub
 📘 **"A Novel Method for Computing Minimal Cut Sets of Variant-Rich Systems in Fault Tree Analysis"**  
 🖋️ Authors: Mahdi Dibaei, Anna Arestova, Kai-Steffen Hielscher, Reinhard German.  
 📅 Published: 2024  
-📚 Available on IEEE Xplore  
+📚 Available on IEEE Xplore, Published in: 2023 7th International Conference on System Reliability and Safety (ICSRS)  
 🔗 [View the Paper](https://ieeexplore.ieee.org/abstract/document/10381472)
 
 Please refer to this paper for the theoretical background, algorithms, and case studies.
