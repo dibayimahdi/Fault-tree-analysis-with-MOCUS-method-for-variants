@@ -1,3 +1,11 @@
+This project is the research prototype of FAUTree.
+
+Full production implementation:
+
+https://github.com/dibayimahdi/FAUTree)
+
+
+
 # ⚙️ Fault Tree Analysis with MOCUS Method for Variants
 
 This Python program computes **minimal cut sets** for a given **150% fault tree model (supermodel)** and its **variants**, based on user-specified active components (variant variables).
